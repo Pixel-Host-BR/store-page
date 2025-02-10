@@ -178,14 +178,14 @@ body {
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
-    color: #737373;
+    color: #000000;
 }
 a,
 a:link,
 a:visited,
 a:hover,
 a:active {
-    color: #fff;
+    color: #fcfcfc;
     text-decoration: none;
     outline: 0;
 }
@@ -205,7 +205,7 @@ p:last-child {
 .btn--primary {
     display: inline-block;
     padding: 9px 29px;
-    color: #fff;
+    color: #ffffff;
     background-color: #ff4719;
     border: none;
     border-radius: 30px;
@@ -262,13 +262,13 @@ p:last-child {
 
 /* 1.4. BACKGROUND COLORS */
 .bg--whitesmoke {
-    background-color: purple;
+    background-color: #f8f8f8;
     border-style: solid;
     border-width: 1px 0;
     border-color: #e9e9e9;
 }
 .bg--midnight {
-    background-color: #0062a3;
+    background-color: #000000;
 }
 
 /* 1.5. SECTION TITLE */
@@ -290,7 +290,7 @@ p:last-child {
 
 .section--title h2 {
     margin: 0;
-    color: #0062a3;
+    color: #000000;
     font-size: 32px;
     line-height: 40px;
     font-weight: 900;
@@ -316,7 +316,8 @@ p:last-child {
 /* 1.7. BACK TO TOP BUTTON */
 #backToTop {
     position: fixed;
-    right: 30px;
+    top: 817px;
+    right: 31.30px;
     bottom: 40px;
     z-index: 999;
     opacity: 0;
@@ -346,7 +347,7 @@ p:last-child {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #0062a3;
+    background-color: #9003FF;
     z-index: 9999999999;
 }
 
@@ -690,11 +691,11 @@ p:last-child {
 #header.sticky .header--navbar {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: black;
+    background-color: #ffffff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.14), 0 2px 4px rgba(0, 0, 0, 0.28);
 }
 #header.sticky .header--navbar a {
-    color: #0062a3;
+    color: #000000;
     -webkit-transition: color 0.25s ease;
             transition: color 0.25s ease;
 }
@@ -712,7 +713,7 @@ p:last-child {
 
 /* 2.3. HEADER NAVBAR TOGGLE */
 .header--navbar .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 /* 2.4. HEADER NAV */
@@ -764,7 +765,7 @@ p:last-child {
 
 /* 2.5. HEADER NAVBAR DARK */
 .header--navbar.dark {
-    background-color: #0062a3;
+    background-color: #000000;
 }
 
 /*------------------------------------*\
@@ -773,7 +774,7 @@ p:last-child {
 #banner {
     position: relative;
     height: 100%;
-    background-color: #0062a3;
+    background-color: #000000;
     overflow: hidden;
     z-index: 0;
 }
@@ -902,6 +903,7 @@ p:last-child {
 /* 4.1. SERVICE ITEM */
 .service--item {
     overflow: hidden;
+   
 }
 
 /* 4.2. SERVICE ICON */
@@ -909,7 +911,9 @@ p:last-child {
     display: table-cell;
     vertical-align: top;
 }
-
+.service--icon img {
+    border-radius: 15px;
+}
 /* 4.3. SERVICE CONTENT */
 .service--content {
     padding-left: 30px;
@@ -1092,11 +1096,12 @@ p:last-child {
 .pricing--item {
     margin-top: 80px;
     padding-bottom: 47px;
-    background-color: #f8f8f8;
+    background-color: #f0f0f0;
     border: 1px solid #f0f0f0;
     text-align: center;
     -webkit-transition: box-shadow .25s ease;
             transition: box-shadow .25s ease;
+            border-radius: 15px;
 }
 .pricing--item:hover {
     box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
@@ -1105,8 +1110,9 @@ p:last-child {
     position: relative;
     margin-top: 50px;
     padding-bottom: 77px;
+    border-radius: 15%;
     color: #fff;
-    background-color: #0062a3;
+    background-color: #fff;
     border: none;
     z-index: 1;
 }
@@ -1117,8 +1123,11 @@ p:last-child {
     left: -15px;
     right: -15px;
     bottom: 0;
-    background-color: #0062a3;
+    background-color: #000000;
     z-index: -1;
+}
+.pricing--item.raised:before {
+   border-radius: 15%;
 }
 
 /* 8.2. PRICING BODY */
@@ -1140,7 +1149,14 @@ p:last-child {
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
 }
-
+.pricing--icon img {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: #0062a3;
+    -webkit-transition: border-color 0.25s ease;
+            transition: border-color 0.25s ease;
+}
 /* 8.4. PRICING TAG */
 .pricing--tag {
     margin-bottom: 5px;
@@ -2368,7 +2384,7 @@ p:last-child {
     position: relative;
     margin: 0 0 25px;
     padding-bottom: 15px;
-    color: #737373;
+    color: #000000;
     font-size: 26px;
     line-height: 34px;
     font-weight: 900;
@@ -2390,7 +2406,7 @@ p:last-child {
 }
 .contact--address address p {
     margin-bottom: 20px;
-    color: #737373;
+    color: #000000;
     font-weight: 400;
     font-size: 16px;
     overflow: hidden;
@@ -2487,8 +2503,8 @@ p:last-child {
 \*------------------------------------*/
 #footer {
     position: relative;
-    background-color: #0062a3;
-    border-bottom: 64px solid #005288;
+    background-color: #000000;
+    border-bottom: 64px solid #671e5a;
     z-index: -1;
 }
 #footer .container {
@@ -2602,7 +2618,7 @@ p:last-child {
     bottom: -64px;
     width: 100%;
     padding: 20px 0;
-    color: #fff;
+    color: #000000;
 }
 .footer--copyright a {
     color: #ff4719;
@@ -2614,8 +2630,8 @@ p:last-child {
 \*------------------------------------*/
 #f0f {
     height: 100%;
-    color: #fff;
-    background-color: #0062a3;
+    color: #9003FF;
+    background-color: #000000;
     text-align: center;
 }
 #f0f > .container,
@@ -2666,7 +2682,7 @@ p:last-child {
     bottom: 0;
     width: 0;
     height: 2px;
-    background-color: #ff4719;
+    background-color: #9003FF;
     -webkit-transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
             transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
 }
@@ -2709,7 +2725,7 @@ p:last-child {
     font-weight: 400;
 }
 .page-header--breadcrumb .breadcrumb li a {
-    color: #0062a3;
+    color: #000000;
     -webkit-transition: color 0.25s ease-in;
             transition: color 0.25s ease-in;
 }

@@ -48,7 +48,7 @@ Author : themelooks.com
 .blog--post-comment-meta a:hover,
 .blog--post-comment-meta a:focus,
 .contact--address h2 span {
-    color: #ff9600;
+    color: #9003FF;
 }
 
 /* BACKGROUND COLOR */
@@ -86,7 +86,7 @@ Author : themelooks.com
 .contact--address h2:before,
 .contact--form input.valid + .highlight,
 .contact--form textarea.valid + .highlight {
-    background-color: #ff9600;
+    background-color: #9003FF;
 }
 
 /* BORDER COLOR */
@@ -102,11 +102,11 @@ Author : themelooks.com
 .blog--post-pagination .pagination > li.active > a,
 .blog--links-widget ul li a:hover,
 .blog--links-widget ul li a:focus {
-    border-color: #ff9600;
+    border-color: #6b086b;
 }
 
 .preloader .slice {
-    border-left-color: #ff9600;
+    border-left-color: #6b086b;
 }
 
 @-webkit-keyframes preload-cycle-1 {

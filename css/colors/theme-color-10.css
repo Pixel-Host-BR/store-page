@@ -48,12 +48,7 @@ Author : themelooks.com
 .blog--post-comment-meta a:hover,
 .blog--post-comment-meta a:focus,
 .contact--address h2 span {
-    color: #9003FF;
-}
-
-.blog--recent-posts-widget ul li h4 a:hover,
-.blog--recent-posts-widget ul li h4 a:focus {
-    color: #9003FF;
+    color: #999;
 }
 
 /* BACKGROUND COLOR */
@@ -91,7 +86,7 @@ Author : themelooks.com
 .contact--address h2:before,
 .contact--form input.valid + .highlight,
 .contact--form textarea.valid + .highlight {
-    background-color: #9003FF;
+    background-color: #999;
 }
 
 /* BORDER COLOR */
