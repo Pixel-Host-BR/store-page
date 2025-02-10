@@ -316,8 +316,8 @@ p:last-child {
 /* 1.7. BACK TO TOP BUTTON */
 #backToTop {
     position: fixed;
-    top: 876px;
-    left: 31.30px;
+    top: 810px;
+    right: 26px;
     bottom: 40px;
     z-index: 999;
     opacity: 0;
