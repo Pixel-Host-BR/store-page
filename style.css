@@ -774,7 +774,7 @@ p:last-child {
 #banner {
     position: relative;
     height: 100%;
-    background-color: #000000;
+    background-color: #6c2cdb;
     overflow: hidden;
     z-index: 0;
 }
@@ -1123,7 +1123,7 @@ p:last-child {
     left: -15px;
     right: -15px;
     bottom: 0;
-    background-color: #000000;
+    background-color: #c6c6c6;
     z-index: -1;
 }
 .pricing--item.raised:before {
@@ -2503,8 +2503,8 @@ p:last-child {
 \*------------------------------------*/
 #footer {
     position: relative;
-    background-color: #000000;
-    border-bottom: 64px solid #671e5a;
+    background-color: #6c2cdb;
+    border-bottom: 64px solid #4c1f55;
     z-index: -1;
 }
 #footer .container {
