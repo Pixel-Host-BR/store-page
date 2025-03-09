@@ -28,7 +28,7 @@ Author : themelooks.com
     }
     
     .btn-registro {
-        
+        display: none;
     }
     /* DOMAIN SEARCH AREA */
     #domainSearch:before {
@@ -453,7 +453,7 @@ Author : themelooks.com
 /* 1.5. CUSTOM, IPHONE RETINA */
 @media screen and (max-width: 380px) {
 }
-@MIDEA screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
     /* DOMAIN SEARCH AREA */
     #domainSearch:before {
         width: 970px;

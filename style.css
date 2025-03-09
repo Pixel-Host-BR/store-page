@@ -708,7 +708,7 @@ p:last-child {
     font-weight: 900;
 }
 .header--logo span {
-    color: #ff4719;
+    color: #9003ff;
 }
 
 /* 2.3. HEADER NAVBAR TOGGLE */
@@ -734,7 +734,7 @@ p:last-child {
 #headerNav .nav > li > a:hover,
 #headerNav .nav > li.active > a,
 #headerNav .nav > .dropdown.open > a {
-    color: #ff4719;
+    color: #9003ff;
 }
 #headerNav .nav > li.active > a {
     font-weight: 900;
@@ -752,7 +752,7 @@ p:last-child {
 #headerNav .nav > .dropdown > .dropdown-menu > li > a:focus,
 #headerNav .nav > .dropdown > .dropdown-menu > li.active > a {
     color: #fff;
-    background-color: #ff4719;
+    background-color: #9003ff;
 }
 .header--login-btn {
     float: right;
@@ -768,7 +768,7 @@ p:last-child {
 
 /* 2.5. HEADER NAVBAR DARK */
 .header--navbar.dark {
-    background-color: #000000;
+    background-color: #4c0768;
 }
 
 #headerNav .dropdown-menu a.btn--primary,
@@ -943,7 +943,6 @@ p:last-child {
 .service--content {
     padding-left: 30px;
     display: block; /* Altera de table-cell para block */
-    vertical-align: top;
     flex: 1; /* Permite que o conteúdo ocupe o espaço restante */
 }
 .service--content h3 {
@@ -1098,6 +1097,8 @@ p:last-child {
 /* 7.2. FEATURE ICON */
 .feature--icon {
     margin-bottom: 25px;
+    
+    
 }
 
 /* 7.3. FEATURE CONTENT */
@@ -1122,15 +1123,22 @@ p:last-child {
 .pricing--item {
     margin-top: 80px;
     padding-bottom: 47px;
-    background-color: #f0f0f0;
+    background-color: #9003ff54;
     border: 1px solid #f0f0f0;
     text-align: center;
     -webkit-transition: box-shadow .25s ease;
             transition: box-shadow .25s ease;
             border-radius: 15px;
 }
+
+.pricing--item footer  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
 .pricing--item:hover {
-    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(244,3,225,.12),0 8px 10px -5px rgba(0,0,0,.2);
 }
 .pricing--item.raised {
     position: relative;
@@ -1183,6 +1191,7 @@ p:last-child {
     -webkit-transition: border-color 0.25s ease;
             transition: border-color 0.25s ease;
 }
+
 /* 8.4. PRICING TAG */
 .pricing--tag {
     margin-bottom: 5px;
@@ -2166,6 +2175,7 @@ p:last-child {
     padding: 60px;
     background-size: auto;
     background-repeat: repeat;
+    border-radius: 15px;
 }
 
 /* 18.4. SUBSCRIBE FORM */
@@ -2341,6 +2351,7 @@ p:last-child {
     background-color: #f0f0f0;
     max-width: 380px;
     margin: 0 auto;
+    border-radius: 15px;
 }
 .login--form p.help-block {
     font-weight: 400;
@@ -2378,7 +2389,7 @@ p:last-child {
     bottom: 0;
     width: 0;
     height: 2px;
-    background-color: #ff4719;
+    background-color: #9003FF;
     -webkit-transition: width 0.25s ease-in-out, background-color 0.25s ease-in-out;
             transition: width 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
@@ -2396,6 +2407,10 @@ p:last-child {
 
 .login--form .btn--ripple {
     vertical-align: middle;
+}
+
+.login {
+    margin-top: px;
 }
 
 /*------------------------------------*\
@@ -2850,10 +2865,19 @@ p:last-child {
     font-weight: 400;
 }
 
+.img-dropmenu {
+    width: 40px;
+    height: 40px;
+    
+}
+
 @media (min-width: 992px) {
     .section--title h2 {
         text-align: center;
         margin-top: 50px; /* Adiciona uma margem superior */
+    }
+    #pricing .section--title h2 {
+        text-align: center; /* Centraliza o título "Planos de Preços" */
     }
     #features .section--title h2 {
         text-align: center; /* Centraliza o título "Serviços Incluídos" */
