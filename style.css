@@ -1826,7 +1826,7 @@ p:last-child {
     bottom: 0;
     width: 60px;
     height: 1px;
-    background-color: #ff4719;
+    background-color: #9003ff;
 }
 .blog--post-comment {
     padding: 30px 0;
@@ -1889,7 +1889,7 @@ p:last-child {
     bottom: 0;
     width: 60px;
     height: 1px;
-    background-color: #ff4719;
+    background-color: #9003ff;
 }
 .blog--post-comment-form-group .form-control {
     margin-bottom: 30px;
@@ -1910,7 +1910,7 @@ p:last-child {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #ff4719;
+    background-color: #9003ff;
     -webkit-transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
             transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
 }
@@ -1952,7 +1952,7 @@ p:last-child {
 .blog--post-pagination .pagination > li > a:focus,
 .blog--post-pagination .pagination > li.active > a {
     color: #fff;
-    background-color: #ff4719;
+    background-color: #9003ff;
     border-color: #ff4719;
 }
 .blog--post-pagination .pagination > li:first-child > a,
@@ -1990,7 +1990,7 @@ p:last-child {
     bottom: 0;
     width: 60px;
     height: 1px;
-    background-color: #ff4719;
+    background-color: #9003ff;
 }
 
 /* 17.13. BLOG SEARCH WIDGET */
@@ -2017,7 +2017,7 @@ p:last-child {
     bottom: 2px;
     width: 0;
     height: 2px;
-    background-color: #ff4719;
+    background-color: #9004ff;
     -webkit-transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
             transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
     z-index: 3;
@@ -2091,7 +2091,7 @@ p:last-child {
 .blog--links-widget ul li a:hover,
 .blog--links-widget ul li a:focus {
     color: #ff4719;
-    border-color: #ff4719;
+    border-color: #9003ff;
 }
 .blog--links-widget ul ul {
     padding-left: 30px;
@@ -2131,7 +2131,7 @@ p:last-child {
     margin-bottom: 0;
     padding: 14px 0;
     color: #fff;
-    background-color: #ff4719;
+    background-color: #9003ff;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     text-align: center;
@@ -2209,7 +2209,7 @@ p:last-child {
     bottom: 0;
     width: 0;
     height: 2px;
-    background-color: #ff4719;
+    background-color: #9003ff;
     -webkit-transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
             transition: width 0.55s ease-in-out, background-color 0.25s ease-in-out;
 }
@@ -2263,7 +2263,7 @@ p:last-child {
     bottom: 0px;
     width: 40px;
     height: 2px;
-    background-color: #ff4719;
+    background-color: #9003ff;
 }
 .faq--categories ul {
     margin-top: 25px;
@@ -2281,7 +2281,7 @@ p:last-child {
 .faq--categories ul li a:hover,
 .faq--categories ul li.active a {
     color: #fff;
-    background-color: #ff4719;
+    background-color: #9003ff;
 }
 
 /* 20.2. FAQ CONTENT */
@@ -2301,11 +2301,11 @@ p:last-child {
     display: block;
     padding: 10px 15px;
     color: #fff;
-    background-color: #ff4719;
+    background-color: #9003ff;
     text-transform: capitalize;
 }
 .faq--content .accordion .panel-heading a.collapsed {
-    background-color: #0062a3;
+    background-color: #9203ffcd;
 }
 .faq--content .accordion .panel-heading a h4 {
     font-size: 14px;
