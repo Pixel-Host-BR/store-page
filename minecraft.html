@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     
-    <title>Inicío - PixelHost</title>
+    <title> Mine - PixelHost</title>
 
     <!-- ====Favicons==== -->
     <link rel="shortcut icon" href="img/favicon-pxhost.png" type="image/x-icon">
@@ -35,6 +35,8 @@
     
     <!-- ====Theme Color Stylesheet==== -->
     <link href="css/colors/theme-color-1.css" rel="stylesheet" id="changeColorScheme">
+
+    <link rel="stylesheet" href="fontawesome/css/all.css">
 
     <!-- HTML5 Shim and Respond.js IE9 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -66,7 +68,7 @@
                     <div class="navbar-header">
                         <!-- Navbar Toggle Button Start -->
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav">
-                            <span class="sr-only">Alternar navegação</span>
+                            <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -83,35 +85,33 @@
                             <a href="login.html" class="btn--primary btn--ripple">Login</a>
                             <a href="registro.html" class="btn-registro btn--ripple">Registro</a>
                         </div>
+                        
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="index.html">Início</a></li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" data-toggle="dropdown">Hospedagem<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="minecraft.html"><img src="img/mine-logo2.svg" class="img-dropmenu" alt="">Hospedagem Minecraft</a></li>
-                                    <li><a href="ark.html"><img src="img/ark-logo.svg" class="img-dropmenu"> Hospedagem Ark</a></li>
-                                    <li><a href="palworld.html"><img src="img/Palworld-Icon-PNG.png" class="img-dropmenu"> Hospedagem PalWord</a></li>
+                                    <li><a href="palworld.html"><img src="img/Palworld-Icon-PNG.png" class="img-dropmenu" alt="">Hospedagem PalWorld</a></li>
+                                    <li><a href="ark.html"><img src="img/ark-logo.svg" class="img-dropmenu">Hospedagem Ark</a></li>
                                 </ul>
                             </li>
-                            
-                            <li class="dropdown">
-                                
-                                <ul class="dropdown-menu">
-                                    <!-- ...existing code... -->
-                                </ul>
                             </li>
                             <li class="dropdown">
                                 <ul class="dropdown-menu">
-                                    <!-- ...existing code... -->
                                 </ul>
                             </li>
-                            <li><a href="contact.html">Contato</a></li>
+                            <li>
+                                <a href="contact.html">Contato</a>
+                            </li>
                             <li class="dropdown hidden-lg hidden-md">
                                 <a href="#" data-toggle="dropdown">Conta<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="login.html" class="btn--primary btn--ripple">Login</a></li>
                                     <li><a href="registro.html" class="btn-registro btn--ripple">Registro</a></li>
                                 </ul>
+                                <li>
+                                    
+                                </li>
                             </li>
                         </ul>
                     </div>
@@ -135,18 +135,18 @@
                                     <div class="col-md-7 col-md-offset-4">
                                         <!-- Banner Content Start -->
                                         <div class="banner--content">
-                                            <h3>Hospedagem</h3>
-                                            <h2>Ark</h2>
+                                            <h3>Minecraft</h3>
+                                            <h2> Plano Basico</h2>
             
-                                            <p>A PixelHost oferece hospedagem de Ark com servidores operam 24 horas por dia, suporte técnico para ajudar a resolver problemas rapidamente e  boa performance, mesmo com muitos jogadores e mods ativos.</p>
+                                            <p>Recomendado Para 4 jogadores.</p>
             
                                             <ul>
-                                                <li>Suporte 24/7/365</li>
-                                                <li>Garantia de 30 Dias</li>
-                                                <li>99.9% Uptime</li>
+                                                <li>4gb de Ram.</li>
+                                                <li>Processamento Básico.</li>
+                                                <li>Suporte Humano 24/7.</li>
                                             </ul>
             
-                                            <a href="ark.html" class="btn--primary btn--ripple">Saiba Mais</a>
+                                            <a href="#" class="btn--primary btn--ripple">Saiba Mais</a>
                                         </div>
                                         <!-- Banner Content End -->
                                     </div>
@@ -161,18 +161,18 @@
                                     <div class="col-md-7 col-md-offset-4">
                                         <!-- Banner Content Start -->
                                         <div class="banner--content">
-                                            <h3>Hospedagem</h3>
-                                            <h2>Minecraft</h2>
+                                            <h3>Minecraft</h3>
+                                            <h2>Plano Avançado</h2>
             
-                                            <p>A PixelHost oferece hospedagem de Minecraft com características atraentes para os jogadores.</p>
+                                            <p>Recomendado para 8 Jogadores.</p>
             
                                             <ul>
-                                                <li>Suporte 24/7/365</li>
-                                                <li>Garantia de 30 Dias</li>
-                                                <li>99.9% Uptime</li>
+                                                <li>8gb de Ram.</li>
+                                                <li>Processamento Avançado.</li>
+                                                <li>Suporte Humano 24/7.</li>
                                             </ul>
             
-                                            <a href="minecraft.html" class="btn--primary btn--ripple">Saiba Mais</a>
+                                            <a href="#" class="btn--primary btn--ripple">Saiba Mais</a>
                                         </div>
                                         <!-- Banner Content End -->
                                     </div>
@@ -187,18 +187,19 @@
                                     <div class="col-md-7 col-md-offset-4">
                                         <!-- Banner Content Start -->
                                         <div class="banner--content">
-                                            <h3>Hospedagem</h3>
-                                            <h2>PalWord</h2>
-            
-                                            <p>A PixelHost oferece hospedagem de PalWorld com servidores que operam 24 horas por dia, suporte técnico para ajudar a resolver problemas rapidamente e boa performance, mesmo com muitos jogadores e mods ativos.</p>
-            
+                                            <h3>Minecraft</h3>
+                                            <h2>Plano Premium</h2>
+
+                                            <p>Recomendado Para 16 Jogadores.</p>
+                                            
                                             <ul>
-                                                <li>Suporte 24/7/365</li>
-                                                <li>Garantia de 30 Dias</li>
-                                                <li>99.9% Uptime</li>
+                                                <li>Ram Ilimitada.</li>
+                                                <li>Processamento Premium.</li>
+                                                <li>Suporte Humano 24/7.</li>
+                                                <li>Prioridade de Suporte.</li>
                                             </ul>
             
-                                            <a href="palworld.html" class="btn--primary btn--ripple">Saiba Mais</a>
+                                            <a href="#" class="btn--primary btn--ripple">Saiba Mais</a>
                                         </div>
                                         <!-- Banner Content End -->
                                     </div>
@@ -212,67 +213,6 @@
             </div>
         </div>
         <!-- Banner Area End -->
-        <!-- Services Area Start -->
-        <div id="services">
-            <div class="container">
-                <!-- Section Title Start -->
-                <div class="section--title">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <h2>Nossos <span>Serviços</span></h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            
-                        </div>
-                    </div>
-                </div>
-                <!-- Section Title End -->
-                <div class="row">
-                    <div class="col-md-4 service--item-h">
-                        <!-- Service Item Start -->
-                        <div class="service--item">
-                            <div class="service--icon">
-                                <img src="img/ark-logo.svg" alt="">
-                            </div>
-                            <div class="service--content">
-                                <h3><span>Hospedagem</span> Ark</h3>
-                                <p>A PixelHost oferece hospedagem de Ark com servidores operam 24 horas por dia, suporte técnico para ajudar a resolver problemas rapidamente e  boa performance, mesmo com muitos jogadores e mods ativos.</p>
-                            </div>
-                        </div>
-                        <!-- Service Item End -->
-                    </div>
-                    <div class="col-md-4 service--item-h">
-                        <!-- Service Item Start -->
-                        <div class="service--item">
-                            <div class="service--icon">
-                                <img src="img/mine-logo2.svg" alt="">
-                            </div>
-                            <div class="service--content">
-                                <h3><span>Hospedagem</span> Minecraft</h3>
-                                <p>A PixelHost oferece hospedagem de Minecraft com características atraentes para os jogadores.</p>
-                            </div>
-                        </div>
-                        <!-- Service Item End -->
-                    </div>
-                    <div class="col-md-4 service--item-h">
-                        <!-- Service Item Start -->
-                        <div class="service--item">
-                            <div class="service--icon">
-                                <img src="img/Palworld-Icon-PNG.png" alt="">
-                            </div>
-                            <div class="service--content">
-                                <h3><span>Hospedagem</span> PalWord</h3>
-                                <p>A PixelHost oferece hospedagem de PalWorld com servidores que operam 24 horas por dia, suporte técnico para ajudar a resolver problemas rapidamente e boa performance, mesmo com muitos jogadores e mods ativos.</p>
-                            </div>
-                        </div>
-                        <!-- Service Item End -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Services Area End -->
         <!-- Pricing Area Start -->
         <div id="pricing">
             <div class="container">
@@ -291,20 +231,25 @@
                         <div class="pricing--item">
                             <div class="pricing--header">
                                 <div class="pricing--icon">
-                                    <img src="img/ark-logo.svg" alt="" class="img-responsive center-block">
+                                    <img src="img/mine-logo2.svg" alt="" class="img-responsive center-block">
                                 </div>
                             </div>
                             <div class="pricing--body">
                                 <div class="pricing--tag">
-                                    <p>A partir de <strong>50 R$</strong></p>
+                                    <p>A partir de <strong>25 R$</strong></p>
                                 </div>
                                 <div class="pricing--details">
-                                    <h2><strong> Hospedagem  </strong></h2>
-                                    <h2><strong>  Ark </strong></h2>
+                                    <h2><strong> Plano Basíco</strong></h2>
+                                    <p> Recomendado para 4 jogadores.</p>
+                                    <ul>
+                                        <h4><i class="fa-regular fa-circle-check"></i> 4gb de Ram</h4>
+                                        <h4><i class="fa-regular fa-circle-check"></i> Processamento Básico</h4>
+                                        <h4><i class="fa-regular fa-circle-check"></i> Suporte Humano 24/7</h4>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="pricing--footer">
-                                <a href="ark.html" class="btn--primary btn--ripple">Comprar Agora</a>
+                                <a href="#" class="btn--primary btn--ripple"> Comprar Agora</a>
                             </div>
                         </div>
                         <!-- Pricing Item End -->
@@ -319,14 +264,20 @@
                             </div>
                             <div class="pricing--body">
                                 <div class="pricing--tag">
-                                    <p>A partir de <strong> 25 R$</strong></p>
+                                    <p>A partir de <strong> 35 R$</strong></p>
                                 </div>
                                 <div class="pricing--details">
-                                    <h2><strong> Hospedagem Minecraft</strong></h2>
+                                    <h2><strong> Plano Avançado</strong></h2>
+                                    <p>Recomendado para 8 jogadores.</p>
+                                    <ul>
+                                        <h4><i class="fa-regular fa-circle-check"></i> 8gb de Ram</h4>
+                                        <h4><i class="fa-regular fa-circle-check"></i> Processamento Avançado</h4>
+                                        <h4><i class="fa-regular fa-circle-check"></i> Suporte Humano 24/7</h4>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="pricing--footer">
-                                <a href="minecraft.html" class="btn--primary btn--ripple">Comprar Agora</a>
+                                <a href="#" class="btn--primary btn--ripple">Encomendar Agora</a>
                             </div>
                         </div>
                         <!-- Pricing Item End -->
@@ -336,19 +287,26 @@
                         <div class="pricing--item">
                             <div class="pricing--header">
                                 <div class="pricing--icon">
-                                    <img src="img/Palworld-Icon-PNG.png" alt="" class="img-responsive center-block">
+                                    <img src="img/mine-logo2.svg" alt="" class="img-responsive center-block">
                                 </div>
                             </div>
                             <div class="pricing--body">
                                 <div class="pricing--tag">
-                                    <p>A partir de <strong> 55 R$</strong></p>
+                                    <p>A partir de <strong> 50 R$</strong></p>
                                 </div>
                                 <div class="pricing--details">
-                                    <h2><strong> Hospedagem PalWorld</strong> </h2>
+                                    <h2><strong> Plano Premium</strong> </h2>
+                                    <p>Recoendado para 16 jogadores.</p>
+                                    <ul>
+                                        <h4><i class="fa-regular fa-circle-check"></i> 16gb de Ram</h4>
+                                        <h4><i class="fa-regular fa-circle-check"></i> Processamento Premium</h4>
+                                        <h4><i class="fa-regular fa-circle-check"></i> Suporte Humano 24/7</h4>
+                                        <h4><i class="fa-regular fa-circle-check"></i> Prioridade no Suporte</h4>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="pricing--footer">
-                                <a href="palworld.html" class="btn--primary btn--ripple">Comprar Agora</a>
+                                <a href="#" class="btn--primary btn--ripple">Encomendar Agora</a>
                             </div>
                         </div>
                         <!-- Pricing Item End -->
@@ -357,21 +315,14 @@
             </div>
         </div>
         <!-- Pricing Area End -->
-        <!-- Feedback Area Start -->
-       
-        <!-- Feedback Area End -->
         <!-- Features Area Start -->
-        <div id="features">
+        <div id="features" class="bg--whitesmoke">
             <div class="container">
                 <!-- Section Title Start -->
                 <div class="section--title">
                     <div class="row">
-                        <div class="col-md-12 text-center">
+                        <div class="col-md-6">
                             <h2>Serviços <span>Incluídos</span></h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 text-center">
                         </div>
                     </div>
                 </div>
@@ -385,7 +336,7 @@
                             </div>
                             <div class="feature--content">
                                 <h2><span>Suporte</span> 24/7/365</h2>
-                                <p>Estamos aqui para garantir que você tenha a melhor experiência possível com nossos hosts. Nossa equipe está pronta para ajudar e atender às suas necessidades de forma humanizada. </p>
+                                <p>Estamos aqui para garantir que você tenha a melhor experiência possível com nossos hosts. Nossa equipe está pronta para ajudar e atender às suas necessidades de forma humanizada.</p>
                             </div>
                         </div>
                         <!-- Feature Item End -->
@@ -420,6 +371,107 @@
             </div>
         </div>
         <!-- Features Area End -->
+        <!-- FAQ Area Start -->
+        <div id="faq">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>FAQ <span>Geral</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- Section Title End -->
+                <!-- FAQ Content Start -->
+                <div class="faq--content">
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="faqTab">
+                            <div class="panel-group accordion" id="faqAccordion" role="tablist">
+                                <!-- Accordion Item Start -->
+                                <div class="panel panel-default active">
+                                    <div class="panel-heading" role="tab">
+                                        <a href="#faqTabQ1" role="button" data-toggle="collapse" data-parent="#faqAccordion">
+                                            <h4 class="panel-title">A PixelHost possui suporte para Host Minecraft? <i class="fa fa-minus"></i></h4>
+                                        </a>
+                                    </div>
+                                    <div id="faqTabQ1" class="panel-collapse collapse in" role="tabpanel">
+                                        <div class="panel-body">
+                                            <p>Sim, temos uma equipe treinada para lhe prover suporte técnico em Hospedagem de Minecraft, ARK, Dayz, PalWorld, VPS e Sites.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Accordion Item End -->
+                                <!-- Accordion Item Start -->
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab">
+                                        <a href="#faqTabQ2" class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion">
+                                            <h4 class="panel-title">A Host Minecraft fica ligada 24 horas? <i class="fa fa-minus"></i></h4>
+                                        </a>
+                                    </div>
+                                    <div id="faqTabQ2" class="panel-collapse collapse" role="tabpanel">
+                                        <div class="panel-body">
+                                            <p>Sim, todos os nossos serviços, incluindo a Hospedagem de Minecraft, operam 24 horas por dia, 7 dias por semana, para garantir que seu jogo nunca pare.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Accordion Item End -->
+                                <!-- Accordion Item Start -->
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab">
+                                        <a href="#faqTabQ3" class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion">
+                                            <h4 class="panel-title">A entrega da Hospedagem de Minecraft é imediata? <i class="fa fa-minus"></i></h4>
+                                        </a>
+                                    </div>
+                                    <div id="faqTabQ3" class="panel-collapse collapse" role="tabpanel">
+                                        <div class="panel-body">
+                                            <p>Absolutamente, você começa a desfrutar de sua Hospedagem de Minecraft imediatamente após o pagamento ser confirmado.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Accordion Item End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Content End -->
+            </div>
+        </div>
+        <!-- FAQ Area End -->
+        <!-- Subscribe Area Start -->
+        <div id="subscribe">
+            <div class="subscribe--sticky">
+                <div class="container">
+                    <!-- Subscribe Content Start -->
+                    <div class="subscribe--content" data-bg-img="img/subscribe-img/bg.png">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <!-- Section Title Start -->
+                                <div class="section--title block">
+                                    <h2>Assine Nossa<span>Newsletter</span></h2>
+                                </div>
+                                <!-- Section Title End -->
+                            </div>
+                            <div class="col-md-8">
+                                <!-- Subscribe Form Start -->
+                                <div class="subscribe--form">
+                                    <form action="http://themelooks.us12.list-manage.com/subscribe/post?u=50e1e21235cbd751ab4c1ebaa&amp;id=ac81d988e4" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate">
+                                        <div class="input--text">
+                                            <input type="text" value="" name="EMAIL" placeholder="Digite seu endereço de email">
+                                            <span class="highlight"></span>
+                                        </div>
+                                        <button type="submit" class="btn--primary btn--ripple">Assinar</button>
+                                    </form>
+                                </div>
+                                <!-- Subscribe Form End -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Subscribe Content End -->
+                </div>
+            </div>
+        </div>
+        <!-- Subscribe Area End -->
         <!-- Footer Area Start -->
         <footer id="footer">
             <div class="container">
@@ -434,7 +486,7 @@
                             <h2>Sobre Nós</h2>
                             <p>Fundada em 2024, a PixelHost nasceu para oferecer uma experiência de hospedagem de servidores gamer incomparável. Com suporte para Minecraft, Ark, DayZ e Palworld, garantimos alto desempenho, estabilidade e segurança para que sua gameplay seja sempre fluida e sem interrupções.
 
-                                Nossa infraestrutura robusta é projetada para suportar desde pequenos grupos de amigos até grandes comunidades de jogadores..
+                                Nossa infraestrutura robusta é projetada para suportar desde pequenos grupos de amigos até grandes comunidades de jogadores.
                                 
                                 <h5>🔥PixelHost — Seu jogo, sua regra, nossa hospedagem!</h5></p>
                             <a href="#"><i class="fa fm fa-angle-double-right"></i>Leia Mais</a>
@@ -466,10 +518,10 @@
 
                             <div class="footer--contact-social">
                                 <ul class="nav navbar-nav">
-                                    <li><a href="https://x.com/pixelhost_"><i class="fa fa-twitter"></i></a></li>
+                                   <li><a href="https://x.com/pixelhost_"><i class="fa fa-twitter"></i></a></li>
                                     <li><a href="https://www.instagram.com/thepixelhost/"><i class="fa fa-instagram"></i></a></li>
                                     <li><a href="https://discord.gg/BBAPJyKUw7"><i class="fa-brands fa-discord"></i>                            
-                                    <li><a href="https://www.facebook.com/profile.php?id=61574219692149"><i class="fa-brands fa-facebook"></i>
+                                    <li><a href="https://www.facebook.com/profile.php?id=61574219692149"><i class="fa-brands fa-facebook"></i>              
                                 </ul>
                             </div>
                         </div>
@@ -514,6 +566,5 @@
     <script src="js/main.js"></script>
 
     <script src="https://kit.fontawesome.com/0afcb7b5b9.js" crossorigin="anonymous"></script>
-                                        
 </body>
 </html>
