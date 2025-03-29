@@ -180,7 +180,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #000000;
-    overflow-x: hidden !important;
+    overflow-x: hidden;
 }
 a,
 a:link,
@@ -326,9 +326,11 @@ p:last-child {
 /* 1.7. BACK TO TOP BUTTON */
 #backToTop {
     position: fixed;
-    top: 810px;
+    top: 334,9px;
     right: 26px;
-    bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 79px;
     z-index: 999;
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -3011,7 +3013,7 @@ p:last-child {
 }
 
 .div--topo img {
-    margin-right: 15px;
+    margin-right: 90px;
 }
 
 ::-webkit-scrollbar {
@@ -3085,5 +3087,6 @@ p:last-child {
 .pricing--item.raised--2:before {
    border-radius: 20px;
 }
+
 
   
