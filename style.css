@@ -180,7 +180,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #000000;
-    overflow-x: hidden;
+    
 }
 a,
 a:link,
@@ -3088,5 +3088,8 @@ p:last-child {
    border-radius: 20px;
 }
 
-
-  
+.fa-circle-check {
+    color: #9003FF;
+    margin-right: 15px;
+    margin-left: 25px;
+}
