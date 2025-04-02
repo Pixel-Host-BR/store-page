@@ -169,6 +169,10 @@ Author : themelooks.com
 /*------------------------------------*\
     1. GENERAL STYLES
 \*------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 html,
 body {
     height: 100%;
@@ -1159,30 +1163,9 @@ p:last-child {
 }
 
 /* 8.1. PRICING ITEM */
-.pricing--item {
-    margin-top: 80px;
-    padding-bottom: 47px;
-    background-color: #9003ff54;
-    border: 1px solid #f0f0f0;
-    text-align: center;
-    -webkit-transition: box-shadow .25s ease;
-            transition: box-shadow .25s ease;
-            border-radius: 15px;
-}
 
-.pricing--item footer  {
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-}
-
-.pricing--item:hover {
-    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(244,3,225,.12),0 8px 10px -5px rgba(0,0,0,.2);
-}
 .pricing--item.raised {
     position: relative;
-    margin-top: 50px;
-    padding-bottom: 77px;
     border-radius: 15px;
     color: #fff;
     background-color: #4c0768;
@@ -1209,9 +1192,6 @@ p:last-child {
 }
 
 /* 8.2. PRICING BODY */
-.pricing--body {
-    padding-top: 50px;
-}
 .pricing--header + .pricing--body {
     padding-top: 0;
 }
@@ -1263,14 +1243,15 @@ p:last-child {
 }
 
 /* 8.6. PRICING FOOTER */
-.pricing--footer {
-    margin-top: 45px;
-}
 
 /*------------------------------------*\
     9. PRICING AREA 2
 \*------------------------------------*/
 #pricing2 {
+    padding: 80px 0;
+}
+
+#pricing--2 {
     padding: 80px 0;
 }
 
@@ -3031,12 +3012,20 @@ p:last-child {
     width: 100%;
     height: 100%;
     border-top-left-radius: 13px;
-    
+    border-top-right-radius: 13px;
+}
+
+.pricing--header-mine img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
 }
 
 .pricing--header-pl img {
     width: 100%;
     height: 100%;
+    border-top-left-radius: 13px;
     border-top-right-radius: 13px;
 }
 
@@ -3047,22 +3036,6 @@ p:last-child {
     height: 100%;
 }
 
-.pricing--details ul {
-    text-align: left;
-    margin-top: 45px;
-   
-}
-.pricing--details ul  {
-    text-align: left;
-    margin-top: 45px;
-    
-    
-}
-
-.pricing--details h4 {
-    font-size: 16px;
-    
-}
 
 .pricing--item.raised--2 {
     position: relative;
@@ -3090,6 +3063,173 @@ p:last-child {
 
 .fa-circle-check {
     color: #9003FF;
-    margin-right: 15px;
-    margin-left: 25px;
 }
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 60px;
+}
+
+.card {
+    width: 225px;
+    height: 400px;
+    border-radius: 16px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+.pricing--item {
+    background-color: #9003ff54;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+    -webkit-transition: box-shadow .25s ease;
+            transition: box-shadow .25s ease;
+            border-radius: 15px;
+}
+
+.pricing--item footer  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.pricing--item:hover {
+    box-shadow: -10px 0 50px rgba(241, 0, 108, 0.352),
+    10px 0 50px rgb(85, 31, 200);
+}
+
+.card-group:hover > .card:not(:hover) {
+    filter: blur(5px); 
+}
+
+.pricing--footer {
+    margin-bottom: 15px;
+}
+
+.pricing--body strong {
+    font-size: 23px;
+    color: #9003FF;
+}
+
+.pricing--body h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 27px;
+    color: #260334;
+    font-weight: 530;
+} 
+
+.pricing--body p {
+    font-size: 20px;
+    color: #260334;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.pricing--body ul {
+    text-align: left;
+    font-size: 15px;
+    margin-top: 0;
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.pricing--body h4 {
+    font-size: medium;
+}
+
+.preço strong {
+    font-family: "poppins", sans-serif;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 43px;
+    line-height: 56px;
+}
+
+.card-group--2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 160px;
+}
+
+.fa-circle-check {
+    margin-left: 15px;
+}
+
+.preço--2 strong {
+    font-family: "poppins", sans-serif;
+    display: block;
+    font-size: 43px;
+    line-height: 56px;
+    margin: 10px;
+}
+
+.preço, .preço--2 small {
+    color: #9003ff;
+    font-size: 0.4em;
+  }
+
+  .card--2 {
+    width: 19vw;
+    height: 400px;
+    border-radius: 16px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.card--2:hover {
+    transform: scale(1.1);
+}
+
+.card_box span {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card_box span::before {
+    content: 'Mais vendido';
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background-image: linear-gradient(45deg, #9003ff 0%, #855ba7  51%, #4c135e  100%);
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+  }
+
+  .card_box span::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    box-shadow: 140px -140px #4c135e;
+    background-image: linear-gradient(45deg, #9003ff 0%, #9003ff  51%, #9003ff  100%);
+  }
+  
+  .pricing--footer--2 {
+    margin-bottom: 22px;
+  }
