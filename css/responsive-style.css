@@ -94,19 +94,6 @@ Author : themelooks.com
     #domainSearch:before {
         display: none;
     }
-    .pricing--header-ak img {
-        width: 100%;
-        height: 100%;
-        border-top-left-radius: 13px;
-        border-top-right-radius: 13px;
-    }
-    
-    .pricing--header-pl img {
-        width: 100%;
-        height: 100%;
-        border-top-left-radius: 13px;
-        border-top-right-radius: 13px;
-    }
 
     #domainSearch .section--title {
         text-align: left;
@@ -143,6 +130,45 @@ Author : themelooks.com
         display: none;
     }
 
+    .card-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-group--2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 86%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    .card--2 {
+        width: 86%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .card_box span {
+        position: absolute;
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+        top: 40px;
+        left: -10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+    .pricing--footer  {
+        margin-bottom: 30px;
+    }
 
     /* ABOUT DESCRIPTION AREA */
     #aboutDesc > .container > .row > div {
@@ -327,6 +353,42 @@ Author : themelooks.com
         padding-left: 8px;
         padding-right: 8px;
     }
+
+    .card-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-group--2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 86%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    .card--2 {
+        width: 86%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .card_box span {
+        position: absolute;
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+        top: 40px;
+        left: -10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 }
 
 /* 1.3. SMALL DEVICES, TABLETS */
@@ -455,6 +517,42 @@ Author : themelooks.com
     .footer--contact-social .nav > li {
         float: left;
     }
+
+    .card-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-group--2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 86%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    .card--2 {
+        width: 86%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .card_box span {
+        position: absolute;
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+        top: 40px;
+        left: -10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 }
 
 /* 1.4. SMALL DEVICES, SMARTPHONES */
@@ -469,8 +567,79 @@ Author : themelooks.com
         float: left;
         width: 25%;
     }
+
+    .card-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-group--2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 86%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    .card--2 {
+        width: 86%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .card_box span {
+        position: absolute;
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+        top: 40px;
+        left: -10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 }
 
 /* 1.5. CUSTOM, IPHONE RETINA */
 @media screen and (max-width: 380px) {
+    .card-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-group--2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 86%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    .card--2 {
+        width: 86%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .card_box span {
+        position: absolute;
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+        top: 40px;
+        left: -10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 }
