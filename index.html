@@ -47,6 +47,9 @@
     <!-- ====Theme Color Stylesheet==== -->
     <link href="css/colors/theme-color-1.css" rel="stylesheet" id="changeColorScheme">
 
+
+
+
     <!-- HTML5 Shim and Respond.js IE9 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -66,7 +69,6 @@
         </div>
     </div>
     <!-- Preloader End -->
-
     <!-- Wrapper Start -->
     <div class="wrapper">
         <!-- Header Area Start -->
@@ -76,13 +78,20 @@
                 <div class="container">
                     <div class="navbar-header">
                         <!-- Navbar Toggle Button Start -->
+                        <div class="navbar-toggle-2">
+                            <div class="dark-mb">
+                                <i id="mode_icon" class="fa-solid fa-sun"></i>
+                            </div>
+                        </div>
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav">
                             <span class="sr-only">Alternar navegação</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
+                        <!-- FORM HEADER -->
                         <!-- Navbar Toggle Button End -->
+
                         <!-- Logo Start -->
                         <a href="index.html" class="header--logo navbar-brand">
                             <span><i class="fa fm fa-rocket"></i>Pixel</span>Host</a>
@@ -93,12 +102,19 @@
                         <div class="header--login-btn">
                             <a href="login.html" class="btn--primary btn--ripple">Login</a>
                             <a href="registro.html" class="btn-registro btn--ripple">Registro</a>
+                            <div>
+                                <label class="switch" id="chk">
+                                    <input type="checkbox" for="chk" />
+                                    <span class="slider"></span>
+                                    <span class="clouds_stars"></span>
+                                 </label>
+                            </div>
                         </div>
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="index.html">Início</a></li>
-                            <li class="dropdown">
+                            <li class=" dropdown-2">
                                 <a href="#" data-toggle="dropdown">Hospedagem<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu menu-container">
                                     <li><a href="minecraft.html"><img src="img/mine-logo2.svg" class="img-dropmenu" alt="">Hospedagem Minecraft</a></li>
                                     <li><a href="ark.html"><img src="img/ark-logo.svg" class="img-dropmenu"> Hospedagem Ark</a></li>
                                     <li><a href="palworld.html"><img src="img/Palworld-Icon-PNG.png" class="img-dropmenu"> Hospedagem PalWord</a></li>
@@ -230,7 +246,7 @@
                 <!-- Section Title Start -->
                 <div class="section--title text-center">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 ">
                             <h2>Nossos <span> Serviços</span></h2>
                         </div>
                     </div>
@@ -300,11 +316,11 @@
                 </div>
                 <!-- Section Title End -->
                 <div class="row reset-gutter card-group">
-                    <div class="col-md-4 pricing--item-h card">
+                    <div class="col-md-4  card">
                         <!-- Pricing Item Start -->
                         <div class="pricing--item">
                             <div class="pricing--header-ak">
-                                <img src="https://assetsio.gnwcdn.com/ark-survival-ascended-art.jpg?width=1920&height=1920&fit=bounds&quality=80&format=jpg&auto=webp" alt="" class="img-responsive center-block">
+                                <img src="img/img--card--ark.jpg" alt="" class="img-responsive center-block">
                                 <div class="pricing--icon"> 
                                 </div>
                             </div>
@@ -328,7 +344,7 @@
                         <div class="pricing--item ">
                             <div class="pricing--header-mine">
                                 <span></span>
-                                <img src="https://staticg.sportskeeda.com/editor/2025/01/82a63-17376968983666-1920.jpg?w=1460" alt="" class="img-responsive center-block">
+                                <img src="img/img--card--mine.jpg" alt="" class="img-responsive center-block">
                                 <div class="pricing--icon">
                                 </div>
                             </div>
@@ -346,11 +362,11 @@
                         </div>
                         <!-- Pricing Item End -->
                     </div>
-                    <div class="col-md-4 pricing--item-h card">
+                    <div class="col-md-4  card">
                         <!-- Pricing Item Start -->
                         <div class="pricing--item">
                             <div class="pricing--header-pl">
-                                <img src="https://articles-img.sftcdn.net/t_article_cover_xl/auto-mapping-folder/sites/8/2024/02/palworld-25-millones.jpg" alt="" class="img-responsive center-block">
+                                <img src="img/img--card--palworld.jpg" alt="" class="img-responsive center-block">
                                 <div class="pricing--icon">
                                 </div>
                             </div>
@@ -367,11 +383,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 pricing--item-h card">
+                    <div class="col-md-4  card">
                         <!-- Pricing Item Start -->
                         <div class="pricing--item">
                             <div class="pricing--header-ak">
-                                <img src="https://www.centralxbox.com.br/wp-content/uploads/2018/08/DayZ-Xbox-One.jpg" alt="" class="img-responsive center-block">
+                                <img src="img/img--card--DayZ.jpg" alt="" class="img-responsive center-block">
                             </div>
                             <div class="pricing--body">
                                 <div class="preço">
@@ -382,7 +398,7 @@
                                 </div>
                             </div>
                             <div class="pricing--footer">
-                                <a href="dayz.html" class="btn--primary">Comprar Agora</a>
+                                <a href="dayz.html" class="btn--primary  ">Comprar Agora</a>
                             </div>
                         </div>
                         <!-- Pricing Item End -->
@@ -440,28 +456,47 @@
                       </div>
             </div>
         </div>
-        <div id="features">
-            <div class="container">
-                <!-- Section Title Start -->
-                <div class="section--title">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <h2><span></span></h2>
+        <!-- Features Area End -->
+        <div id="subscribe">
+            <div class="subscribe--sticky">
+                <div class="container">
+                    <!-- Subscribe Content Start -->
+                    <div class="subscribe--content" data-bg-img="img/subscribe-img/bg.png">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <!-- Section Title Start -->
+                                <div class="section--title block">
+                                    <h2>Inscreva-se na nossa<span>Newsletter</span></h2>
+                                </div>
+                                <!-- Section Title End -->
+                            </div>
+                            <div class="col-md-8">
+                                <!-- Subscribe Form Start -->
+                                <div class="subscribe--form">
+                                    <form action="http://themelooks.us12.list-manage.com/subscribe/post?u=50e1e21235cbd751ab4c1ebaa&amp;id=ac81d988e4" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate">
+                                        <div class="input--text">
+                                            <input type="text" value="" name="EMAIL" placeholder="Digite seu endereço de email">
+                                            <span class="highlight"></span>
+                                        </div>
+                                        <button type="submit" class="btn--primary btn--ripple">Inscrever-se</button>
+                                    </form>
+                                </div>
+                                <!-- Subscribe Form End -->
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                        </div>
-                    </div>
+                    <!-- Subscribe Content End -->
                 </div>
             </div>
-        </div>         
-        <!-- Features Area End -->
+        </div>
+        
         <!-- Footer Area Start -->
         <footer id="footer">
             <div class="container">
                 <!-- Footer Background Image Start -->
-                <div class="footer--bg" data-bg-img="img/ark-footer2.png"></div>
+                <div class="footer--bg">
+                    <div class="banner--bg--footer" data-bg-img="img/footer-svg.svg"></div>
+                </div>
                 <!-- Footer Background Image End -->
                 <div class="row">
                     <!-- Footer Widget Start -->
@@ -473,7 +508,7 @@
 
                                 Nossa infraestrutura robusta é projetada para suportar desde pequenos grupos de amigos até grandes comunidades de jogadores.
                                 
-                                <h5>🔥PixelHost — Seu jogo, sua regra, nossa hospedagem!</h5></p>
+                                <h5><i class="fa-solid fa-rocket"></i>PixelHost Seu jogo, sua regra, nossa hospedagem!</h5></p>
                             <a href="#"><i class="fa fm fa-angle-double-right"></i>Leia Mais</a>
                         </div>
                         <!-- Footer About Widget End -->
@@ -551,6 +586,10 @@
     <script src="js/main.js"></script>
 
     <script src="https://kit.fontawesome.com/0afcb7b5b9.js" crossorigin="anonymous"></script>
-                                        
+
+    <script src="js/script.js"></script>
+    
+
+                  
 </body>
 </html>
