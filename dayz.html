@@ -75,6 +75,11 @@
             <nav class="header--navbar navbar navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">
+                        <div class="navbar-toggle-2">
+                            <div class="dark-mb">
+                                <i id="mode_icon" class="fa-solid fa-sun"></i>
+                            </div>
+                        </div>
                         <!-- Navbar Toggle Button Start -->
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav">
                             <span class="sr-only">Alternar navegação</span>
@@ -93,6 +98,13 @@
                         <div class="header--login-btn">
                             <a href="login.html" class="btn--primary btn--ripple">Login</a>
                             <a href="registro.html" class="btn-registro btn--ripple">Registro</a>
+                            <div>
+                                <label class="switch" id="chk">
+                                    <input type="checkbox" for="chk" />
+                                    <span class="slider"></span>
+                                    <span class="clouds_stars"></span>
+                                 </label>
+                            </div>
                         </div>
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="index.html">Início</a></li>
@@ -237,7 +249,7 @@
                 </div>
                 <!-- Section Title End -->
                 <div class="row reset-gutter card-group--2 ">
-                    <div class="col-md-4 pricing--item-h card--2">
+                    <div class="col-md-4 card--2">
                         <!-- Pricing Item Start -->
                         <div class="pricing--item">
                             <div class="pricing--header-pl">
@@ -267,7 +279,7 @@
                         
                         <!-- Pricing Item End -->
                     </div>
-                    <div class="col-md-4  card--2 card_box">
+                    <div class="col-md-4 card--2 card_box--2">
                         <!-- Pricing Item Start -->
                         <div class="pricing--item">
                             <div class="pricing--header-pl">
@@ -297,7 +309,7 @@
                         </div>
                         <!-- Pricing Item End -->
                     </div>
-                    <div class="col-md-4 pricing--item-h card--2">
+                    <div class="col-md-4 card--2">
                         <!-- Pricing Item Start -->
                         <div class="pricing--item">
                             <div class="pricing--header-pl">
@@ -470,7 +482,7 @@
                             <div class="col-md-4">
                                 <!-- Section Title Start -->
                                 <div class="section--title block">
-                                    <h2>Assine a nossa<span>Newsletter</span></h2>
+                                    <h2>Inscreva-se na nossa<span>Newsletter</span></h2>
                                 </div>
                                 <!-- Section Title End -->
                             </div>
@@ -482,7 +494,7 @@
                                             <input type="text" value="" name="EMAIL" placeholder="Digite seu endereço de email">
                                             <span class="highlight"></span>
                                         </div>
-                                        <button type="submit" class="btn--primary btn--ripple">Assinar</button>
+                                        <button type="submit" class="btn--primary btn--ripple">Inscrever-se</button>
                                     </form>
                                 </div>
                                 <!-- Subscribe Form End -->
@@ -493,12 +505,13 @@
                 </div>
             </div>
         </div>
-        <!-- Subscribe Area End -->
         <!-- Footer Area Start -->
         <footer id="footer">
             <div class="container">
                 <!-- Footer Background Image Start -->
-                <div class="footer--bg" data-bg-img="img/ark-footer2.png"></div>
+                <div class="footer--bg">
+                    <div class="banner--bg--footer" data-bg-img="img/footer-svg.svg"></div>
+                </div>
                 <!-- Footer Background Image End -->
                 <div class="row">
                     <!-- Footer Widget Start -->
@@ -510,7 +523,7 @@
 
                                 Nossa infraestrutura robusta é projetada para suportar desde pequenos grupos de amigos até grandes comunidades de jogadores.
                                 
-                                <h5>🔥PixelHost — Seu jogo, sua regra, nossa hospedagem!</h5></p>
+                                <h5><i class="fa-solid fa-rocket"></i>PixelHost Seu jogo, sua regra, nossa hospedagem!</h5></p>
                             <a href="#"><i class="fa fm fa-angle-double-right"></i>Leia Mais</a>
                         </div>
                         <!-- Footer About Widget End -->
@@ -540,10 +553,10 @@
 
                             <div class="footer--contact-social">
                                 <ul class="nav navbar-nav">
-                                    <li><a href="https://x.com/pixelhost_"><i class="fa fa-twitter"></i></a></li>
+                                   <li><a href="https://x.com/pixelhost_"><i class="fa fa-twitter"></i></a></li>
                                     <li><a href="https://www.instagram.com/thepixelhost/"><i class="fa fa-instagram"></i></a></li>
                                     <li><a href="https://discord.gg/BBAPJyKUw7"><i class="fa-brands fa-discord"></i>                            
-                                    <li><a href="https://www.facebook.com/profile.php?id=61574219692149"><i class="fa-brands fa-facebook"></i>
+                                    <li><a href="https://www.facebook.com/profile.php?id=61574219692149"><i class="fa-brands fa-facebook"></i>              
                                 </ul>
                             </div>
                         </div>
@@ -588,6 +601,8 @@
     <script src="js/main.js"></script>
 
     <script src="https://kit.fontawesome.com/0afcb7b5b9.js" crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>
