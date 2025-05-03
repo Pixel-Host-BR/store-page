@@ -173,6 +173,7 @@ Author : themelooks.com
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+
 html,
 body {
     height: 100%;
@@ -180,12 +181,211 @@ body {
 }
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: #fafafa;
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
     color: #000000;
     
 }
+
+body.white {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fafafa;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    
+}
+
+body.dark {
+    background: #1f1626;
+    color: #fff;
+    
+  }
+    body.dark .section--title h2 {
+        color: #fff;
+    }
+    body.dark #header.sticky .header--navbar {
+        background-color: #1f1626e2;
+        color: #fff;
+    }
+    body.dark #header.sticky .header--navbar a:hover {  
+        color: #9003FF;
+    }
+    body.dark .dropdown-menu {
+        background-color: #1f1626e2;
+        color: #fff;
+    }
+    body.dark #header.sticky .header--navbar a {
+        color: #fff;
+    }
+    body.dark     #header.sticky #headerNav {
+        background-color: #1f1626e2;
+        color: #fff;
+    }
+    body.dark .dropdown-2 .menu-container  {
+        background-color: #1f1626e2;
+        color: #fff;
+    }
+    body.dark .btn--primary {
+        color: #ffffff !important;
+    }
+    body.dark .pricing--item {
+        background-color: #d8a1ff;
+    }
+    body.dark .pricing--item p{
+        color: #000;
+    }
+    body.dark .subscribe--content h2 {
+        color: #260334;
+    }
+    body.dark .h1-service {
+        background: linear-gradient(25deg, rgb(125, 0, 221) 0%, rgb(76, 29, 86) 100%);
+        border: solid 2.5px #c071ff;
+    }
+    body.dark h4 {
+        color: #000;
+    }
+    body.dark p {
+        color: #c073e0;
+    }
+    body.dark .panel-heading {
+        color: #fff;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    body.dark .panel-body {
+        border-radius: 15px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+    body.dark #footer p {
+        color: #fff;
+    }
+    body.dark .panel-title {
+        color: #fff;
+    }
+    body.dark .banner--content p {
+        color: #fff;
+    }
+    body.dark .login--form label {
+        color: #000;
+    }
+
+    .switch {
+        font-size: 17px;
+        position: relative;
+        display: inline-block;
+        width: 3.5em;
+        height: 2em;
+      }
+      .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+      .slider {
+        background-color: #2185d6;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        cursor: pointer;
+        transition: 0.4s;
+        border-radius: 20px;
+        box-shadow: 0 0 0 rgba(33, 133, 214, 0);
+        transition: all 0.4s ease;
+        padding: 19px;
+        border: solid 1.5px #c071ff;
+      }
+      .slider:hover {
+        box-shadow: 0 0 15px rgba(33, 133, 214, 0.5);
+      }
+      
+      .slider::before {
+        position: absolute;
+        content: "";
+        height: 1.4em;
+        width: 1.4em;
+        border-radius: 50%;
+        left: 10%;
+        bottom: 15%;
+        box-shadow: inset 15px -4px 0px 15px #fdf906;
+        background-color: #28096b;
+        transition: all 0.4s ease;
+        transform-origin: center;
+      }
+      .slider:hover::before {
+        transform: rotate(45deg);
+      }
+      .clouds_stars {
+        position: absolute;
+        content: "";
+        border-radius: 50%;
+        height: 10px;
+        width: 10px;
+        left: 70%;
+        bottom: 50%;
+        background-color: #fff;
+      
+        transition: all 0.3s;
+        box-shadow:
+          -12px 0 0 0 white,
+          -6px 0 0 1.6px white,
+          0.3px 16px 0 white,
+          -6.5px 16px 0 white;
+        filter: blur(0.55px);
+      }
+      .switch input:checked ~ .clouds_stars {
+        transform: translateX(-20px);
+        height: 2px;
+        width: 2px;
+        border-radius: 50%;
+        left: 80%;
+        top: 15%;
+        background-color: #fff;
+        backdrop-filter: blur(10px);
+        transition: all 0.3s;
+        box-shadow:
+          -7px 10px 0 #fff,
+          8px 15px 0 #fff,
+          -17px 1px 0 #fff,
+          -20px 10px 0 #fff,
+          -7px 23px 0 #fff,
+          -15px 25px 0 #fff;
+        filter: none;
+        animation: twinkle 2s infinite;
+      }
+      .switch input:checked + .slider {
+        background-color: #28096b !important;
+      }
+      .switch input:checked + .slider::before {
+        transform: translateX(100%);
+        box-shadow: inset 8px -4px 0 0 #fff;
+      }
+      .switch input:checked + .slider:hover::before {
+        transform: translateX(100%) rotate(-45deg);
+      }
+      @keyframes twinkle {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.5;
+        }
+      }
+      
+  .col-md-12 {
+    margin-top: 25px;
+  }
+
+ 
 a,
 a:link,
 a:visited,
@@ -212,9 +412,10 @@ p:last-child {
     display: inline-block;
     padding: 9px 29px;
     color: #ffffff;
-    background-color: #ff4719;
-    border: none;
-    border-radius: 13px;
+    background: rgb(144,3,255);
+    background: linear-gradient(25deg, rgba(144,3,255,1) 0%, rgba(76,29,86,1) 100%);
+    border: solid 2.5px #c071ff;
+    border-radius: 9px;
     font-size: 14px;
     line-height: 22px;
     font-weight: 900;
@@ -700,7 +901,7 @@ p:last-child {
     margin-bottom: 0;
     padding-top: 15px;
     padding-bottom: 15px;
-    border: none;
+    border: n;
     -webkit-transition: padding 0.25s ease-in-out, background-color 0.25s ease-in-out, box-shadow 0.25s ease;
             transition: padding 0.25s ease-in-out, background-color 0.25s ease-in-out, box-shadow 0.25s ease;
 }
@@ -716,6 +917,7 @@ p:last-child {
             transition: color 0.25s ease;
 }
 
+
 /* 2.2. HEADER LOGO */
 .header--logo {
     height: auto;
@@ -725,12 +927,15 @@ p:last-child {
 }
 .header--logo span {
     color: #9003ff;
+   
 }
+
 
 /* 2.3. HEADER NAVBAR TOGGLE */
 .header--navbar .navbar-toggle .icon-bar {
     background-color: #ffffff;
 }
+
 
 /* 2.4. HEADER NAV */
 #headerNav .nav > li > a {
@@ -769,6 +974,7 @@ p:last-child {
 #headerNav .nav > .dropdown > .dropdown-menu > li.active > a {
     color: #fff;
     background-color: #9003ff;
+    
 }
 .header--login-btn {
     float: right;
@@ -2584,16 +2790,16 @@ p:last-child {
 /* 24.1. FOOTER BG */
 .footer--bg {
     position: absolute;
-    align-items: center;
     left: 0;
-    right: 0px;
-    bottom: 10px; /* Movido para baixo */
+    right: 0;
+    bottom: -64px;
     height: 100%;
     background-size: auto;
-    background-position: 10% 10%;
+    background-position: -200px 100%;
     z-index: -2;
-    display: none; /* Oculta a imagem de fundo */
 }
+
+
 
 /* 24.2. FOOTER WIDGET */
 .footer--widget {
@@ -2865,9 +3071,10 @@ p:last-child {
     align-items: center;
     padding: 9px 29px;
     color: #ffffff !important;
-    background-color: #9003FF;
-    border: none;
-    border-radius: 13px;
+    background: rgb(144,3,255);
+    background: linear-gradient(25deg, rgba(144,3,255,1) 0%, rgba(76,29,86,1) 100%);
+    border: solid 2.5px #c071ff;
+    border-radius: 9px;
     font-size: 14px;
     line-height: 22px;
     font-weight: 900;
@@ -2968,8 +3175,8 @@ p:last-child {
   }
 
   .feature--icon {
-    width: 220vw;
-    height: 125vh;
+    width: 150vw;
+    height: 100%;
     margin-right: 49px;
     margin-left: auto;
     
@@ -3106,7 +3313,7 @@ p:last-child {
 }
 
 .card-group:hover > .card:not(:hover) {
-    filter: blur(5px); 
+    filter: opacity(50%); 
 }
 
 .pricing--footer {
@@ -3204,7 +3411,7 @@ p:last-child {
   }
   
   .card_box span::before {
-    content: 'Mais vendido';
+    content: 'Mais popular';
     position: absolute;
     width: 150%;
     height: 40px;
@@ -3233,3 +3440,95 @@ p:last-child {
   .pricing--footer--2 {
     margin-bottom: 22px;
   }
+
+ 
+  .menu-container {
+    background-color: white;
+    color: darkviolet;
+    border-radius: 10px;
+    clip-path: inset(0% 0% 0% 0% round 10px);
+    transition: all 0.4s;
+  }
+
+  .menu-container ul {
+    font-family: "poppins", sans-serif;
+    font-weight: 900;
+  }
+  
+  .card_box--2 span {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card_box--2 span::before {
+    content: 'Mais Vendido';
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background-image: linear-gradient(45deg, #9003ff 0%, #855ba7  51%, #4c135e  100%);
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+  }
+
+::selection {
+    background: #9003ff;
+    color: #fff;
+}
+
+.banner--bg--footer {
+    top: -0.5%;
+    left: -10%;
+    width: 38vw;
+    height: 100%;
+    background-size: contain;
+    background-position: bottom left;
+    z-index: -1;
+}
+.footer--about i {
+   margin-right: -40px;
+   color: #d7a8fc;
+}
+
+.navbar-toggle-2 i {
+    float: right;
+    margin: auto;
+    padding: 9px 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;background: linear-gradient(25deg, rgb(125, 0, 221) 0%, rgba(76,29,86,1) 100%);
+    border: solid 2px #c071ff;
+    width: 50px;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 999px) {
+    .navbar-toggle-2 {
+        display: none !important;
+        
+    }
+}
+
+@media screen and (min-width: 775px) {
+    .navbar-toggle-2 {
+        display: none !important;
+    }
+}
+
