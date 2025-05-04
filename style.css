@@ -218,6 +218,10 @@ body.dark {
         background-color: #1f1626e2;
         color: #fff;
     }
+    body.dark .dropdown-menu a {
+        background-color: #1f1626e2;
+        color: #fff;
+    }
     body.dark #header.sticky .header--navbar a {
         color: #fff;
     }
@@ -275,7 +279,15 @@ body.dark {
     body.dark .login--form label {
         color: #000;
     }
-
+    body.dark #contact address  span{
+        color: #c073e0;
+    }
+    body.dark #contact h2 {
+        color: #fff;
+    }
+    body.dark .page-header--breadcrumb li a {
+        color: #fff;
+    }
     .switch {
         font-size: 17px;
         position: relative;
