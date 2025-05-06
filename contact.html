@@ -61,6 +61,11 @@
             <nav class="header--navbar dark navbar navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">
+                        <div class="navbar-toggle-2">
+                            <div class="dark-mb">
+                                <i id="mode_icon" class="fa-solid fa-sun"></i>
+                            </div>
+                        </div>
                         <!-- Navbar Toggle Button Start -->
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav">
                             <span class="sr-only">Toggle navigation</span>
@@ -79,6 +84,15 @@
                         <div class="header--login-btn">
                             <a href="login.html" class="btn--primary btn--ripple">Login</a>
                             <a href="registro.html" class="btn-registro btn--ripple">Registro</a>
+
+                            <div>
+                                <label class="switch" id="chk">
+                                    <input type="checkbox" for="chk" />
+                                    <span class="slider"></span>
+                                    <span class="clouds_stars"></span>
+                                 </label>
+                            </div>
+
                         </div>
                         
                         <ul class="nav navbar-nav navbar-right">
@@ -89,6 +103,9 @@
                                    <li><a href="minecraft.html"><img src="img/mine-logo2.svg" class="img-dropmenu" alt="">Hospedagem Minecraft</a></li>
                                     <li><a href="ark.html"><img src="img/ark-logo.svg" class="img-dropmenu"> Hospedagem Ark</a></li>
                                     <li><a href="palworld.html"><img src="img/Palworld-Icon-PNG.png" class="img-dropmenu"> Hospedagem PalWord</a></li>
+
+                                    <li><a href="dayz.html"><img src="img/dayz_icon.png" class="img-dropmenu"> Hospedagem DayZ </a></li>
+
                                 </ul>
                             </li>
                             <li><a href="contact.html">Contato</a></li>
@@ -208,7 +225,9 @@
                             <div class="col-md-4">
                                 <!-- Section Title Start -->
                                 <div class="section--title block">
-                                    <h2>Assine Nossa<span>Newsletter</span></h2>
+<
+                                    <h2>Inscreva-se na nossa<span>Newsletter</span></h2>
+
                                 </div>
                                 <!-- Section Title End -->
                             </div>
@@ -220,7 +239,9 @@
                                             <input type="text" value="" name="EMAIL" placeholder="Digite seu endereço de email">
                                             <span class="highlight"></span>
                                         </div>
-                                        <button type="submit" class="btn--primary btn--ripple">Assinar</button>
+
+                                        <button type="submit" class="btn--primary btn--ripple">Inscrever-se</button>
+
                                     </form>
                                 </div>
                                 <!-- Subscribe Form End -->
@@ -231,12 +252,15 @@
                 </div>
             </div>
         </div>
-        <!-- Subscribe Area End -->
         <!-- Footer Area Start -->
 <footer id="footer">
             <div class="container">
                 <!-- Footer Background Image Start -->
-                <div class="footer--bg" data-bg-img="img/ark-footer2.png"></div>
+
+                <div class="footer--bg">
+                    <div class="banner--bg--footer" data-bg-img="img/footer-svg.svg"></div>
+                </div>
+
                 <!-- Footer Background Image End -->
                 <div class="row">
                     <!-- Footer Widget Start -->
@@ -246,9 +270,11 @@
                             <h2>Sobre Nós</h2>
                             <p>Fundada em 2024, a PixelHost nasceu para oferecer uma experiência de hospedagem de servidores gamer incomparável. Com suporte para Minecraft, Ark, DayZ e Palworld, garantimos alto desempenho, estabilidade e segurança para que sua gameplay seja sempre fluida e sem interrupções.
 
-                                Nossa infraestrutura robusta é projetada para suportar desde pequenos grupos de amigos até grandes comunidades de jogadores..
+
+                                Nossa infraestrutura robusta é projetada para suportar desde pequenos grupos de amigos até grandes comunidades de jogadores.
                                 
-                                <h5>🔥PixelHost — Seu jogo, sua regra, nossa hospedagem!</h5></p>
+                                <h5><i class="fa-solid fa-rocket"></i>PixelHost Seu jogo, sua regra, nossa hospedagem!</h5></p>
+
                             <a href="#"><i class="fa fm fa-angle-double-right"></i>Leia Mais</a>
                         </div>
                         <!-- Footer About Widget End -->
@@ -278,10 +304,12 @@
 
                             <div class="footer--contact-social">
                                 <ul class="nav navbar-nav">
-                                    <li><a href="https://x.com/pixelhost_"><i class="fa fa-twitter"></i></a></li>
+
+                                   <li><a href="https://x.com/pixelhost_"><i class="fa fa-twitter"></i></a></li>
                                     <li><a href="https://www.instagram.com/thepixelhost/"><i class="fa fa-instagram"></i></a></li>
                                     <li><a href="https://discord.gg/BBAPJyKUw7"><i class="fa-brands fa-discord"></i>                            
-                                    <li><a href="https://www.facebook.com/profile.php?id=61574219692149"><i class="fa-brands fa-facebook"></i>
+                                    <li><a href="https://www.facebook.com/profile.php?id=61574219692149"><i class="fa-brands fa-facebook"></i>              
+
                                 </ul>
                             </div>
                         </div>
@@ -326,6 +354,10 @@
     <script src="js/main.js"></script>
 
     <script src="https://kit.fontawesome.com/0afcb7b5b9.js" crossorigin="anonymous"></script>
+
+
+    <script src="js/script.js"></script>
+
     
 </body>
 </html>
