@@ -939,7 +939,7 @@ p:last-child {
 }
 .header--logo span {
     color: #9003ff;
-   
+
 }
 
 
@@ -986,7 +986,7 @@ p:last-child {
 #headerNav .nav > .dropdown > .dropdown-menu > li.active > a {
     color: #fff;
     background-color: #9003ff;
-    
+
 }
 .header--login-btn {
     float: right;
@@ -1159,6 +1159,7 @@ p:last-child {
     overflow: hidden;
     display: flex; /* Adiciona flexbox */
     align-items: center; /* Alinha os itens ao centro */
+
     flex-direction: column; /* Altera a direção do flexbox */
     display: flex;
     flex-direction: row; /* Alinha os itens em linha */
@@ -1167,6 +1168,7 @@ p:last-child {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+
 }
 
 /* 4.2. SERVICE ICON */
@@ -1181,18 +1183,22 @@ p:last-child {
     width: 100px; /* Define a largura das imagens */
     height: 100px; /* Define a altura das imagens */
     object-fit: cover; /* Garante que a imagem se ajuste ao tamanho definido */
+
     margin-bottom: 10px;
     width: 100px;
     height: 100px;
     object-fit: cover;
+
 }
 /* 4.3. SERVICE CONTENT */
 .service--content {
     padding-left: 30px;
+
     flex-direction: column; /* Altera de table-cell para block */
     flex: 1; /* Permite que o conteúdo ocupe o espaço restante */
     flex: 1; /* Permite que o conteúdo ocupe o espaço restante */
     margin-right: 50px;
+
 }
 .service--content h3 {
     text-align: left;
@@ -1357,7 +1363,9 @@ p:last-child {
 
 /* 7.2. FEATURE ICON */
 .feature--icon {
+
     margin-bottom: -7px;
+
     
     
 }
@@ -1382,6 +1390,8 @@ p:last-child {
 
 /* 8.1. PRICING ITEM */
 
+
+
 .pricing--item.raised {
     position: relative;
     border-radius: 15px;
@@ -1401,7 +1411,9 @@ p:last-child {
     z-index: -1;
 }
 .pricing--item.raised:before {
+
    border-radius: 15px;
+
 }
 
 .pricing--item.raised:before img {
@@ -2790,7 +2802,9 @@ p:last-child {
 \*------------------------------------*/
 #footer {
     position: relative;
+
     background: linear-gradient(180deg, #4c0768, #4c1f55); /* Gradiente de duas cores */
+
     border-bottom: 64px solid #4c1f55;
     z-index: -1;
     color: #fff;
@@ -2802,13 +2816,15 @@ p:last-child {
 /* 24.1. FOOTER BG */
 .footer--bg {
     position: absolute;
+    align-items: center;
     left: 0;
-    right: 0;
-    bottom: -64px;
+    right: 0px;
+    bottom: 10px; /* Movido para baixo */
     height: 100%;
     background-size: auto;
-    background-position: -200px 100%;
+    background-position: 10% 10%;
     z-index: -2;
+    display: none; /* Oculta a imagem de fundo */
 }
 
 
@@ -3093,12 +3109,14 @@ p:last-child {
     outline: 0;
 }
 
+
 .btn-registro:hover {
     box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
               -4px -4px 6px 0 rgba(116, 125, 136, .5), 
     inset -4px -4px 6px 0 rgba(255,255,255,.2),
     inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
 }
+
 
 .btn-login {
     display: inline-block;
@@ -3125,6 +3143,7 @@ p:last-child {
     height: 40px;
     
 }
+
 
 .row--2 {
     display: flex;
@@ -3543,4 +3562,5 @@ p:last-child {
         display: none !important;
     }
 }
+
 
