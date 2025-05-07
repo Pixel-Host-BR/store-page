@@ -479,7 +479,7 @@ Author : themelooks.com
         background-color: #fff;
     }
     #header.sticky .navbar-toggle.collapsed .icon-bar {
-        background-color: #9003ff;
+        background-color: #232c3b;
     }
     .header--navbar .navbar-header {
         padding: 15px 0;
@@ -495,23 +495,13 @@ Author : themelooks.com
     }
 
     #headerNav {
-        background-color: #1f1827;
-        color: #fff;
+        background-color: #232c3b;
         border-top-color: rgba(34, 34, 34, 0.2);
         -webkit-transition: background-color .25s ease-in-out;
                 transition: background-color .25s ease-in-out;
     }
-    #headerNav a {
-        background-color: #1f1827;
-        color: #fff;
-    }
-    #header.sticky #headerNav a{
-        
-        background-color: #1f1827;
-        color: #fff;
-        border-top-color: rgba(34, 34, 34, 0.2);
-        -webkit-transition: background-color .25s ease-in-out;
-                transition: background-color .25s ease-in-out;
+    #header.sticky #headerNav {
+        background-color: #fff;
     }
 
     #headerNav .nav > li > a {
@@ -523,7 +513,7 @@ Author : themelooks.com
         color: #fff;
     }
     #header.sticky .nav > .dropdown > .dropdown-menu > li > a {
-        color: #fff;
+        color: #232c3b;
     }
     #header.sticky .nav > .dropdown > .dropdown-menu > li > a:hover,
     #header.sticky .nav > .dropdown > .dropdown-menu > li > a:focus,
@@ -790,23 +780,5 @@ Author : themelooks.com
         gap: 25px;
         margin-bottom: 160px;
         
-    }
-    .card-group--2 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 25px;
-        margin-bottom: 60px;
-    }
-    .card--2 {
-        width: 260px;
-        height: 400px;
-        border-radius: 16px;
-        transition: 0.5s;
-        cursor: pointer;
-    
-    }
-    #features .section--title {
-        margin-top: 60px;
     }
 }
