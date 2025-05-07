@@ -3517,8 +3517,25 @@ p:last-child {
     text-align: center;
     justify-content: center;
 }
-
-
+.preço strong {
+    font-family: "poppins", sans-serif;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 43px;
+    line-height: 56px;
+}
+.preço--2 strong {
+    font-family: "poppins", sans-serif;
+    display: block;
+    font-size: 43px;
+    line-height: 56px;
+    margin: 10px;
+}
+.preço, .preço--2 small {
+    color: #9003ff;
+    font-size: 0.4em;
+}
 @media screen and (min-width: 999px) {
     .navbar-toggle-2 {
         display: none !important;
