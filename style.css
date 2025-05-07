@@ -218,10 +218,6 @@ body.dark {
         background-color: #1f1626e2;
         color: #fff;
     }
-    body.dark .dropdown-menu a {
-        background-color: #1f1626e2;
-        color: #fff;
-    }
     body.dark #header.sticky .header--navbar a {
         color: #fff;
     }
@@ -276,19 +272,10 @@ body.dark {
     body.dark .banner--content p {
         color: #fff;
     }
-    body.dark .login--form label {
-        color: #000;
-    }
-    body.dark #contact address  span{
-        color: #c073e0;
-    }
-    body.dark #contact h2 {
-        color: #fff;
-    }
-    body.dark .page-header--breadcrumb li a {
-        color: #fff;
-    }
+    
+    
     .switch {
+        /* border: 2px solid rebeccapurple; */
         font-size: 17px;
         position: relative;
         display: inline-block;
@@ -296,6 +283,7 @@ body.dark {
         height: 2em;
       }
       .switch input {
+        /* all: unset; */
         opacity: 0;
         width: 0;
         height: 0;
@@ -502,7 +490,7 @@ p:last-child {
 .section--title {
     margin-top: -80px;
     margin-bottom: 80px;
-    border-bottom: none; /* Remova a linha de divisória */
+    border-bottom: none; /* Remova a linha de divis ria */
 }
 
 .section--title > .row {
@@ -531,7 +519,7 @@ p:last-child {
 }
 .section--title p {
     padding: 40px 0 40px 40px;
-    border-left: none; /* Remova a linha de divisória */
+    border-left: none; /* Remova a linha de divis ria */
 }
 
 /* 1.6. SECTION FOOTER */
@@ -939,7 +927,7 @@ p:last-child {
 }
 .header--logo span {
     color: #9003ff;
-
+   
 }
 
 
@@ -986,7 +974,7 @@ p:last-child {
 #headerNav .nav > .dropdown > .dropdown-menu > li.active > a {
     color: #fff;
     background-color: #9003ff;
-
+    
 }
 .header--login-btn {
     float: right;
@@ -1019,7 +1007,7 @@ p:last-child {
     line-height: 22px;
     font-weight: 900;
     outline: 0;
-    margin: 10px 0; /* Adicione uma margem para criar distância */
+    margin: 10px 0; /* Adicione uma margem para criar dist ncia */
 }
 
 /*------------------------------------*\
@@ -1159,23 +1147,21 @@ p:last-child {
     overflow: hidden;
     display: flex; /* Adiciona flexbox */
     align-items: center; /* Alinha os itens ao centro */
-
-    flex-direction: column; /* Altera a direção do flexbox */
+    flex-direction: column; /* Altera a dire  o do flexbox */
     display: flex;
     flex-direction: row; /* Alinha os itens em linha */
     align-items: flex-start; /* Alinha os itens ao topo */
-    text-align: left; /* Alinha o texto à esquerda */
+    text-align: left; /* Alinha o texto   esquerda */
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-
 }
 
 /* 4.2. SERVICE ICON */
 .service--icon {
     display: table-cell;
     vertical-align: top;
-    margin-right: 20px; /* Espaço entre a imagem e o texto */
+    margin-right: 20px; /* Espa o entre a imagem e o texto */
     margin-right: 20px;
 }
 .service--icon img {
@@ -1183,22 +1169,18 @@ p:last-child {
     width: 100px; /* Define a largura das imagens */
     height: 100px; /* Define a altura das imagens */
     object-fit: cover; /* Garante que a imagem se ajuste ao tamanho definido */
-
     margin-bottom: 10px;
     width: 100px;
     height: 100px;
     object-fit: cover;
-
 }
 /* 4.3. SERVICE CONTENT */
 .service--content {
     padding-left: 30px;
-
     flex-direction: column; /* Altera de table-cell para block */
-    flex: 1; /* Permite que o conteúdo ocupe o espaço restante */
-    flex: 1; /* Permite que o conteúdo ocupe o espaço restante */
+    flex: 1; /* Permite que o conte do ocupe o espa o restante */
+    flex: 1; /* Permite que o conte do ocupe o espa o restante */
     margin-right: 50px;
-
 }
 .service--content h3 {
     text-align: left;
@@ -1363,9 +1345,7 @@ p:last-child {
 
 /* 7.2. FEATURE ICON */
 .feature--icon {
-
     margin-bottom: -7px;
-
     
     
 }
@@ -1390,8 +1370,6 @@ p:last-child {
 
 /* 8.1. PRICING ITEM */
 
-
-
 .pricing--item.raised {
     position: relative;
     border-radius: 15px;
@@ -1411,9 +1389,7 @@ p:last-child {
     z-index: -1;
 }
 .pricing--item.raised:before {
-
    border-radius: 15px;
-
 }
 
 .pricing--item.raised:before img {
@@ -2694,7 +2670,7 @@ p:last-child {
     content: " ";
     width: 40px;
     height: 2px;
-    background-color: transparent; /* Deixe a linha de divisória visualmente oculta */
+    background-color: transparent; /* Deixe a linha de divis ria visualmente oculta */
     bottom: 0px;
 }
 .contact--address h2 span {
@@ -2802,9 +2778,7 @@ p:last-child {
 \*------------------------------------*/
 #footer {
     position: relative;
-
     background: linear-gradient(180deg, #4c0768, #4c1f55); /* Gradiente de duas cores */
-
     border-bottom: 64px solid #4c1f55;
     z-index: -1;
     color: #fff;
@@ -2816,15 +2790,13 @@ p:last-child {
 /* 24.1. FOOTER BG */
 .footer--bg {
     position: absolute;
-    align-items: center;
     left: 0;
-    right: 0px;
-    bottom: 10px; /* Movido para baixo */
+    right: 0;
+    bottom: -64px;
     height: 100%;
     background-size: auto;
-    background-position: 10% 10%;
+    background-position: -200px 100%;
     z-index: -2;
-    display: none; /* Oculta a imagem de fundo */
 }
 
 
@@ -3027,7 +2999,7 @@ p:last-child {
 /* 26.2. PAGE HEADER BREADCRUMB */
 .page-header--breadcrumb {
     padding: 50px 0 50px 40px;
-    border-left: none; /* Remova a linha de divisória */
+    border-left: none; /* Remova a linha de divis ria */
 }
 .page-header--breadcrumb .breadcrumb {
     margin: 0;
@@ -3109,14 +3081,12 @@ p:last-child {
     outline: 0;
 }
 
-
 .btn-registro:hover {
     box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
               -4px -4px 6px 0 rgba(116, 125, 136, .5), 
     inset -4px -4px 6px 0 rgba(255,255,255,.2),
     inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
 }
-
 
 .btn-login {
     display: inline-block;
@@ -3144,12 +3114,11 @@ p:last-child {
     
 }
 
-
 .row--2 {
     display: flex;
-    justify-content: space-between; /* Espaçamento entre os grupos */
-    align-items: center; /* Mantém a centralização vertical */
-    height: 100vh; /* Ajuste a altura conforme necessário */
+    justify-content: space-between; /* Espa amento entre os grupos */
+    align-items: center; /* Mant m a centraliza  o vertical */
+    height: 100vh; /* Ajuste a altura conforme necess rio */
   }
   
   .lado-esquerdo, .lado-direito {
@@ -3206,7 +3175,7 @@ p:last-child {
   }
 
   .feature--icon {
-    width: 190vw;
+    width: 150vw;
     height: 100%;
     margin-right: 49px;
     margin-left: auto;
@@ -3221,7 +3190,7 @@ p:last-child {
   #services  {
     display: flex;
     align-items: flex-start; /* Alinha os itens ao topo */
-    gap: 20px; /* Espaço entre os elementos */
+    gap: 20px; /* Espa o entre os elementos */
 }
 
 .div--topo {
@@ -3383,7 +3352,7 @@ p:last-child {
     font-size: medium;
 }
 
-.preço strong {
+.pre o strong {
     font-family: "poppins", sans-serif;
     display: block;
     margin-top: 5px;
@@ -3404,7 +3373,7 @@ p:last-child {
     margin-left: 15px;
 }
 
-.preço--2 strong {
+.pre o--2 strong {
     font-family: "poppins", sans-serif;
     display: block;
     font-size: 43px;
@@ -3412,7 +3381,7 @@ p:last-child {
     margin: 10px;
 }
 
-.preço, .preço--2 small {
+.pre o, .pre o--2 small {
     color: #9003ff;
     font-size: 0.4em;
   }
