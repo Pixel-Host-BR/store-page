@@ -218,6 +218,10 @@ body.dark {
         background-color: #1f1626e2;
         color: #fff;
     }
+    body.dark .dropdown-menu a {
+        background-color: #1f1626e2;
+        color: #fff;
+    }
     body.dark #header.sticky .header--navbar a {
         color: #fff;
     }
@@ -270,6 +274,18 @@ body.dark {
         color: #fff;
     }
     body.dark .banner--content p {
+        color: #fff;
+    }
+    body.dark .login--form label {
+        color: #000;
+    }
+    body.dark #contact address  span{
+        color: #c073e0;
+    }
+    body.dark #contact h2 {
+        color: #fff;
+    }
+    body.dark .page-header--breadcrumb li a {
         color: #fff;
     }
     
@@ -490,7 +506,7 @@ p:last-child {
 .section--title {
     margin-top: -80px;
     margin-bottom: 80px;
-    border-bottom: none; /* Remova a linha de divis ria */
+    border-bottom: none; /* Remova a linha de divisória */
 }
 
 .section--title > .row {
@@ -519,7 +535,7 @@ p:last-child {
 }
 .section--title p {
     padding: 40px 0 40px 40px;
-    border-left: none; /* Remova a linha de divis ria */
+    border-left: none; /* Remova a linha de divisória */
 }
 
 /* 1.6. SECTION FOOTER */
@@ -1007,7 +1023,7 @@ p:last-child {
     line-height: 22px;
     font-weight: 900;
     outline: 0;
-    margin: 10px 0; /* Adicione uma margem para criar dist ncia */
+    margin: 10px 0; /* Adicione uma margem para criar distância */
 }
 
 /*------------------------------------*\
@@ -1147,11 +1163,11 @@ p:last-child {
     overflow: hidden;
     display: flex; /* Adiciona flexbox */
     align-items: center; /* Alinha os itens ao centro */
-    flex-direction: column; /* Altera a dire  o do flexbox */
+    flex-direction: column; /* Altera a direção do flexbox */
     display: flex;
     flex-direction: row; /* Alinha os itens em linha */
     align-items: flex-start; /* Alinha os itens ao topo */
-    text-align: left; /* Alinha o texto   esquerda */
+    text-align: left; /* Alinha o texto à esquerda */
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -1161,7 +1177,7 @@ p:last-child {
 .service--icon {
     display: table-cell;
     vertical-align: top;
-    margin-right: 20px; /* Espa o entre a imagem e o texto */
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
     margin-right: 20px;
 }
 .service--icon img {
@@ -1178,8 +1194,8 @@ p:last-child {
 .service--content {
     padding-left: 30px;
     flex-direction: column; /* Altera de table-cell para block */
-    flex: 1; /* Permite que o conte do ocupe o espa o restante */
-    flex: 1; /* Permite que o conte do ocupe o espa o restante */
+    flex: 1; /* Permite que o conteúdo ocupe o espaço restante */
+    flex: 1; /* Permite que o conteúdo ocupe o espaço restante */
     margin-right: 50px;
 }
 .service--content h3 {
@@ -2670,7 +2686,7 @@ p:last-child {
     content: " ";
     width: 40px;
     height: 2px;
-    background-color: transparent; /* Deixe a linha de divis ria visualmente oculta */
+    background-color: transparent; /* Deixe a linha de divisória visualmente oculta */
     bottom: 0px;
 }
 .contact--address h2 span {
@@ -2999,7 +3015,7 @@ p:last-child {
 /* 26.2. PAGE HEADER BREADCRUMB */
 .page-header--breadcrumb {
     padding: 50px 0 50px 40px;
-    border-left: none; /* Remova a linha de divis ria */
+    border-left: none; /* Remova a linha de divisória */
 }
 .page-header--breadcrumb .breadcrumb {
     margin: 0;
@@ -3116,9 +3132,9 @@ p:last-child {
 
 .row--2 {
     display: flex;
-    justify-content: space-between; /* Espa amento entre os grupos */
-    align-items: center; /* Mant m a centraliza  o vertical */
-    height: 100vh; /* Ajuste a altura conforme necess rio */
+    justify-content: space-between; /* Espaçamento entre os grupos */
+    align-items: center; /* Mantém a centralização vertical */
+    height: 100vh; /* Ajuste a altura conforme necessário */
   }
   
   .lado-esquerdo, .lado-direito {
@@ -3190,7 +3206,7 @@ p:last-child {
   #services  {
     display: flex;
     align-items: flex-start; /* Alinha os itens ao topo */
-    gap: 20px; /* Espa o entre os elementos */
+    gap: 20px; /* Espaço entre os elementos */
 }
 
 .div--topo {
@@ -3352,7 +3368,7 @@ p:last-child {
     font-size: medium;
 }
 
-.pre o strong {
+.preço strong {
     font-family: "poppins", sans-serif;
     display: block;
     margin-top: 5px;
@@ -3373,7 +3389,7 @@ p:last-child {
     margin-left: 15px;
 }
 
-.pre o--2 strong {
+.preço--2 strong {
     font-family: "poppins", sans-serif;
     display: block;
     font-size: 43px;
@@ -3381,7 +3397,7 @@ p:last-child {
     margin: 10px;
 }
 
-.pre o, .pre o--2 small {
+.preço, .preço--2 small {
     color: #9003ff;
     font-size: 0.4em;
   }
@@ -3517,25 +3533,8 @@ p:last-child {
     text-align: center;
     justify-content: center;
 }
-.preço strong {
-    font-family: "poppins", sans-serif;
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 43px;
-    line-height: 56px;
-}
-.preço--2 strong {
-    font-family: "poppins", sans-serif;
-    display: block;
-    font-size: 43px;
-    line-height: 56px;
-    margin: 10px;
-}
-.preço, .preço--2 small {
-    color: #9003ff;
-    font-size: 0.4em;
-}
+
+
 @media screen and (min-width: 999px) {
     .navbar-toggle-2 {
         display: none !important;
@@ -3548,3 +3547,4 @@ p:last-child {
         display: none !important;
     }
 }
+
