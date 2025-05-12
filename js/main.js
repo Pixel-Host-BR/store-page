@@ -375,17 +375,16 @@ Author : themelooks.com
         /* ------------------------------------------------------------------------- *
          * LIVE CHAT WIDGET
          * ------------------------------------------------------------------------- */
-        var Tawk_API = Tawk_API || {},
-            Tawk_LoadStart = new Date(),
-            $tawk = document.createElement("script");
-            
-        $tawk.async=true;
-        $tawk.src='https://embed.tawk.to/57dfd4b85dc7a25e92808cf6/default';
-        $tawk.charset='UTF-8';
-        $tawk.setAttribute('crossorigin','*');
-        
-        $($tawk).appendTo('body');
-        
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/6821b4c85fa91f190c49b7a7/1ir1qkclc';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
         /* ------------------------------------------------------------------------- *
          * COLOR SWITCHER
          * ------------------------------------------------------------------------- */
