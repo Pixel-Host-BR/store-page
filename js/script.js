@@ -24,4 +24,3 @@ mode.addEventListener('click', () => {
       document.body.classList.remove('dark'); // Desativa o modo dark
   }
 });
-
