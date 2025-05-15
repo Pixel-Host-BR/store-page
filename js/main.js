@@ -375,17 +375,7 @@ Author : themelooks.com
         /* ------------------------------------------------------------------------- *
          * LIVE CHAT WIDGET
          * ------------------------------------------------------------------------- */
-        var Tawk_API = Tawk_API || {},
-            Tawk_LoadStart = new Date(),
-            $tawk = document.createElement("script");
-            
-        $tawk.async=true;
-        $tawk.src='https://embed.tawk.to/57dfd4b85dc7a25e92808cf6/default';
-        $tawk.charset='UTF-8';
-        $tawk.setAttribute('crossorigin','*');
-        
-        $($tawk).appendTo('body');
-        
+      
         /* ------------------------------------------------------------------------- *
          * COLOR SWITCHER
          * ------------------------------------------------------------------------- */
